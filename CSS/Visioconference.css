@@ -1,0 +1,276 @@
+body {
+	background-image: url("https://files.123freevectors.com/wp-content/original/142192-blue-and-white-professional-background.jpg");
+	background-size: cover;
+}
+
+/* Page d'acceuil */
+
+.heather {
+	width: 75%;
+	font-size: 175%;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.heather ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.heather li {
+	float: left;
+	margin-left: 15px;
+}
+
+.heather li a {
+	display: block;
+	padding: 10px;
+	color: #000000; 
+}
+
+.heather li a:hover {
+	color: #2149eb;
+}
+
+hr {
+	margin-left: 23px;
+	width: 80%;
+	border: 142192-blue-and-white-professional-background;
+}
+
+.apps {
+	border-radius: 10%;
+	opacity: 0.8;
+	border-collapse: collapse;
+	float: right;
+	width: 35%;
+	height: 25%;
+	margin: 1.66%;
+	margin-left: 15px;
+}
+
+.intro p {
+	font-size: 20px;
+	font-family: Garamond, "Times New Roman", serif;
+	width: 70%;
+	margin: 1.66%;
+}
+
+
+.intro h1{
+	font-family: Garamond, "Times New Roman", serif;
+	margin: 1.66%;
+}
+
+.intro li {
+	font-family: Garamond, "Times New Roman", serif;
+	font-size: 175%;
+}
+
+.footer {
+	margin-left: 23px;
+	width: 97%;
+	opacity: 0.6;
+}
+
+.copyright p {
+	color: black;
+	border-collapse: collapse;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 23px;
+	font-size: 95%;
+	opacity: 0.8;
+}
+
+.copyright p a {
+	color: black;
+}
+
+/* Page Applications */
+
+#Applications {
+	font-family: Garamond, "Times New Roman", serif;
+	text-align: center;
+	margin: auto;
+}
+
+div img {
+	width: 450px;
+	height: 450px;
+	border-radius: 10%;
+}
+
+div h2 {
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+}
+
+div p {
+	font-family: Garamond, "Times New Roman", serif;
+	font-size: 20px;
+}
+
+.Microsoft {
+	font-family: Garamond, "Times New Roman", serif;
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+}
+
+.Zoom {
+	font-family: Garamond, "Times New Roman", serif;
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+}
+
+.Google {
+	font-family: Garamond, "Times New Roman", serif;
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+}
+
+/* Page Login */
+
+form {
+    border-collapse: collapse;
+}
+
+input {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.souvenir {
+
+}
+
+.annule {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.avatarimg {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 35%;
+    border-radius: 10%;
+}
+
+.container {
+	margin: auto;
+	width: 35%;
+    padding: 16px;
+}
+
+span.mdp {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Modifier la bordure pour des plus petits écrans
+
+@media screen and (max-width: 300px) {
+    span.mdp {
+      display: block;
+      float: none;
+    }
+    .annule {
+      width: 100%;
+    }
+
+}*/
+
+/* Page Formulaire */
+
+.form {
+	text-align: center;
+	border-radius: 10%;
+	width: 35%;
+	margin: auto;
+	border: double;
+	font-family: Garamond, "Times New Roman", serif;
+}
+
+.form input {
+	width: 50%;
+	border-radius: 10%;
+}
+
+.form label {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#hrform {
+	width: 100%;
+	margin: auto;
+	border: thin solid black;
+}
+
+/* Page Blog */
+
+.blog {
+	text-align: center;
+	border-radius: 10%;
+	width: 35%;
+	margin: auto;
+	border-style: groove;
+	border-color: black;
+}
+
+.blog hr {
+	width: 100%;
+	margin: auto;
+	border: thin solid black;
+}
+
+.blog a:hover {
+	color: green;
+}
+
+/* Page Liens utiles */
+
+.liens {
+	width: 50%;
+}
+
+.liens p {
+	margin-left: 23px;
+	font-family: Garamond, "Times New Roman", serif;
+}
+
+.liensimg {
+	border-radius: 10%;
+	opacity: 0.8;
+	border-collapse: collapse;
+	float: right;
+	width: 35%;
+	height: 25%;
+	margin-right: 20px;
+}
